@@ -1,0 +1,97 @@
+[
+  {
+    "objectID": "lectures/lecture01.html",
+    "href": "lectures/lecture01.html",
+    "title": "Lecture 1 — Introduction",
+    "section": "",
+    "text": "Replace the src with your actual video id.",
+    "crumbs": [
+      "Lectures",
+      "Lecture 1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture01.html#lecture-video",
+    "href": "lectures/lecture01.html#lecture-video",
+    "title": "Lecture 1 — Introduction",
+    "section": "",
+    "text": "Replace the src with your actual video id.",
+    "crumbs": [
+      "Lectures",
+      "Lecture 1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture01.html#lecture-notes",
+    "href": "lectures/lecture01.html#lecture-notes",
+    "title": "Lecture 1 — Introduction",
+    "section": "🧾 Lecture Notes",
+    "text": "🧾 Lecture Notes\n\nReproducibility means that independent people can obtain the same results given the same data and code.\nUse version control (git), an environment file (e.g., environment.yml), and clear documentation.\n\n\n\n\n\n\n\nNote\n\n\n\nWhat you’ll learn today - Course structure - Tools (Quarto, Git, GitHub, R/Python) - How to submit assignments reproducibly",
+    "crumbs": [
+      "Lectures",
+      "Lecture 1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture01.html#code-example-r",
+    "href": "lectures/lecture01.html#code-example-r",
+    "title": "Lecture 1 — Introduction",
+    "section": "🧮 Code Example (R)",
+    "text": "🧮 Code Example (R)\n\nset.seed(159)\nx &lt;- rnorm(1000)\nmean(x); sd(x)\n\n[1] 0.0134715\n\n\n[1] 0.9991268",
+    "crumbs": [
+      "Lectures",
+      "Lecture 1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture01.html#references",
+    "href": "lectures/lecture01.html#references",
+    "title": "Lecture 1 — Introduction",
+    "section": "📚 References",
+    "text": "📚 References\n\nQuarto docs: https://quarto.org\nGit/GitHub basics for the course",
+    "crumbs": [
+      "Lectures",
+      "Lecture 1 — Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This site hosts my lecture videos and notes for the term.\n왼쪽/상단 메뉴에서 Lectures를 눌러 강의를 확인하세요.\n\n\n\nLecture 1 — Introduction\n\n\n\n\n\nBuilt with Quarto and deployed on GitHub Pages.\nSupports Markdown, LaTeX math (e.g., \\(E[X]=\\mu\\)), and executable code blocks (R, Python).\n\n\n\n\nReplace the VIDEO_ID with your YouTube video id (the part after v=) and place this in a .qmd file:\n\n\nTip: you can also use a pure Markdown link like\nhttps://youtu.be/VIDEO_ID — most themes will auto-embed.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#latest-lectures",
+    "href": "index.html#latest-lectures",
+    "title": "Welcome",
+    "section": "",
+    "text": "Lecture 1 — Introduction",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "Welcome",
+    "section": "",
+    "text": "Built with Quarto and deployed on GitHub Pages.\nSupports Markdown, LaTeX math (e.g., \\(E[X]=\\mu\\)), and executable code blocks (R, Python).",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-embed-a-youtube-video",
+    "href": "index.html#how-to-embed-a-youtube-video",
+    "title": "Welcome",
+    "section": "",
+    "text": "Replace the VIDEO_ID with your YouTube video id (the part after v=) and place this in a .qmd file:\n\n\nTip: you can also use a pure Markdown link like\nhttps://youtu.be/VIDEO_ID — most themes will auto-embed.",
+    "crumbs": [
+      "Welcome"
+    ]
+  }
+]

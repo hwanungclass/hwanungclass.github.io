@@ -1,0 +1,34 @@
+
+---
+title: "Welcome"
+page-layout: article
+---
+
+# Course Overview
+
+This site hosts my lecture videos and notes for the term.  
+왼쪽/상단 메뉴에서 **Lectures**를 눌러 강의를 확인하세요.
+
+## Latest Lectures
+
+- [Lecture 1 — Introduction](lectures/lecture01.qmd)
+
+## About this Site
+
+- Built with **Quarto** and deployed on **GitHub Pages**.
+- Supports Markdown, LaTeX math (e.g., $E[X]=\mu$), and executable code blocks (R, Python).
+
+## How to Embed a YouTube Video
+
+Replace the `VIDEO_ID` with your YouTube video id (the part after `v=`) and place this in a `.qmd` file:
+
+```{=html}
+<iframe width="800" height="450"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+```
+
+> Tip: you can also use a pure Markdown link like  
+> `https://youtu.be/VIDEO_ID` — most themes will auto-embed.

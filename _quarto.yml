@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Hwanung Database"
+  repo-url: https://github.com/<USER>/<REPO>       # 선택
+  repo-actions: [edit, issue]                      # 선택
+  sidebar:
+    style: docked                                  # 왼쪽 고정 사이드바
+    logo: assets/logo.png                          # 선택(로고 파일 있으면)
+    search: true
+    collapse-level: 1                              # 1단계 이하만 접기
+    contents:
+      - index.qmd
+      - section: "Syllabus"
+        contents:
+          - syllabus.qmd
+      - section: "Lectures"
+        contents:
+          - lectures/index.qmd                     # 목록 페이지
+          - lectures/lecture01.qmd
+          # 이후 lecture 파일을 계속 추가
+
+  page-footer:
+    left: "© 2025 Hwanung"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: Darkly          # 마음에 드는 테마로: cosmo/minty/sandstone 등
+    toc: true
+    code-copy: true
+    smooth-scroll: true

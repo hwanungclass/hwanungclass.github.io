@@ -1,0 +1,43 @@
+
+---
+title: "Lecture 1 — Introduction"
+date: "2025-09-02"
+description: "Course introduction, goals, and reproducibility basics."
+---
+
+## 🎥 Lecture Video
+
+```{=html}
+<iframe width="800" height="450"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+```
+
+> Replace the `src` with your actual video id.
+
+## 🧾 Lecture Notes
+
+- Reproducibility means that independent people can **obtain the same results** given the same data and code.
+- Use version control (**git**), an environment file (e.g., **`environment.yml`**), and clear documentation.
+
+::: callout-note
+**What you'll learn today**
+- Course structure
+- Tools (Quarto, Git, GitHub, R/Python)
+- How to submit assignments reproducibly
+:::
+
+## 🧮 Code Example (R)
+
+```{r}
+set.seed(159)
+x <- rnorm(1000)
+mean(x); sd(x)
+```
+
+## 📚 References
+
+- Quarto docs: <https://quarto.org>
+- Git/GitHub basics for the course
